@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cccccc;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.input-field {
+  max-width: 700px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 7px;
+}
