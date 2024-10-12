@@ -9,12 +9,96 @@
   <body>
     <div class="container">
       <div class="input-field">
+        <h1>
+          Enter User Details
+          <span class="title_small">(Whatsapp)</span>
+        </h1>
         <form action="">
-          <label for="">First Name</label>
-          <input type="text" placeholder="First Name" />
-          <label for="">Last Name</label>
-          <input type="text" placeholder="Last Name" />
-          <input type="file" placeholder="Browse file" />
+          <div class="form_container">
+            <div class="form_control">
+              <label for="">First Name</label>
+              <input
+                type="text"
+                id="fName"
+                name="fName"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="form_control">
+              <label for="">Last Name</label>
+              <input
+                type="text"
+                id="lName"
+                name="lName"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="form_control">
+              <label for="">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email" />
+            </div>
+
+            <div class="form_control">
+              <label for="job_role">Job Role</label>
+              <select id="job_role" name="job_role">
+                <option value="">Job Role</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="dev-ops">Dev-ops Engineer</option>
+                <option value="fullstack">Fullstack Developer</option>
+              </select>
+            </div>
+            <div class="form_control">
+              <label for="address">Address</label>
+              <textarea
+                name="address"
+                id="address"
+                cols="50"
+                rows="4"
+                placeholder="Enter Address"
+              ></textarea>
+            </div>
+            <div class="form_control">
+              <label for="city">City</label>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="City Name"
+              />
+            </div>
+            <div class="form_control">
+              <label for="pincode">Pincode</label>
+              <input
+                type="number"
+                id="pincode"
+                name="pincode"
+                placeholder="Pincode"
+              />
+            </div>
+            <div class="form_control">
+              <label for="pincode">Date</label>
+              <input
+                type="date"
+                id="date"
+                name="date"
+                placeholder="Date"
+                value="2024-01-25"
+              />
+            </div>
+            <div class="form_control">
+              <label for="pincode">Uploade file</label>
+              <input
+                type="file"
+                id="upload"
+                name="upload"
+                placeholder="Browse a file"
+              />
+            </div>
+          </div>
+          <div class="btn_container">
+            <button type="submit">Submit</button>
+          </div>
         </form>
       </div>
     </div>
