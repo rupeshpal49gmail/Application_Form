@@ -20,3 +20,13 @@ body {
   box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
   border-radius: 7px;
 }
+
+.title_small {
+  font-size: 20px;
+}
+
+.form_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
