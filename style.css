@@ -30,3 +30,10 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
 }
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 15px;
+}
