@@ -26,14 +26,66 @@ body {
 }
 
 .form_container {
+  margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(207px, 1fr));
+  gap: 20px;
 }
 .form_control {
   display: flex;
   flex-direction: column;
 }
 label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   font-size: 15px;
+}
+
+input:focus {
+  outline-color: #1a02f7;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #2c2cc9;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6161e1;
+  transition: 0.3s ease-in-out;
+}
+
+.textarea_control {
+  grid-column: 1 / span 2;
+}
+
+.textarea_control textarea {
+  width: 100%;
+}
+#address {
+  margin-top: 5px;
+}
+
+@media (max-width: 470px) {
+  .textarea_control {
+    grid-column: 1 / span 1;
+  }
 }
